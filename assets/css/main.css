@@ -13,6 +13,159 @@
 	font-weight: 400;
 	src: url(../fonts/LITTLELO.TTF)
 }
+@font-face {
+	font-display: swap;
+	font-family: 'LittleLordFontleroy';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/LITTLELO.TTF)
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-ExtraLight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-MediumItalic.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-SemiBoldItalic.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-BlackItalic.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-LightItalic.ttf) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-ThinItalic.ttf) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-ExtraLightItalic.ttf) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-ExtraBold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-ExtraBoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
 
 /*
 	Website von LamplNet Solutions
@@ -95,6 +248,81 @@ sup {
 	font-size: 0.6rem;
 	position: relative;
 	top: -0.5rem;
+}
+
+/* LamplNet Specials */
+mark {
+	background-image: url(../svg/Marker.svg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 -0.2em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.2em;
+	padding-right: 0.4em;
+}
+
+mark.headline {
+	background-image: url(../svg/Marker.svg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 -0.4em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.6em;
+	padding-right: 1.0em;
+	font-weight: bold;
+	color: #846564;
+}
+
+mark.headline:hover {
+	background-image: url(../svg/MarkerHell.svg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 -0.4em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.6em;
+	padding-right: 1.0em;
+	font-weight: bold;
+	color: #846564;
+}
+
+mark.artist {
+	background-image: url(../svg/MarkerDunkel.svg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 0em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.6em;
+	padding-right: 1.0em;
+	color: #F6B7B0;
+	font-size: 40px;
+}
+
+mark.sub-artist {
+	background-image: url(../svg/Marker.svg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 -0em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.6em;
+	padding-right: 1.0em;
+	color: #846564;
+}
+
+p.subheadline {
+	color: #F7E8DE;
+	font-family: "Jokerman";
+	font-size: 1.1rem;
+	text-shadow: 1px 1px #F6B7B0;
 }
 
 /* Basic */
@@ -183,12 +411,12 @@ sup {
 
 	body {
 		background-color: #ffffff;
-		color: #F7E8DE;
+		color: #000;
 	}
 
 	body, input, select, textarea {
-		color: #000000;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		color: #000;;
+		font-family: "Poppins", Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
 		letter-spacing: 0.0375em;
@@ -201,7 +429,7 @@ sup {
 		-ms-transition: border-bottom-color 0.25s ease-in-out;
 		transition: border-bottom-color 0.25s ease-in-out;
 		text-decoration: none;
-		color: #000000;
+		color: #000;
 		border-bottom: dotted 1px;
 	}
 
@@ -212,7 +440,8 @@ sup {
 
 	strong, b {
 		font-weight: 600;
-		color: #000000;
+		/*color: #846564;*/
+		color: #000;
 	}
 
 	em, i {
@@ -2207,25 +2436,25 @@ sup {
 
 	input[type="checkbox"],
 	input[type="radio"] {
-		-moz-appearance: none;
+		/*-moz-appearance: none;
 		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+		-ms-appearance: none;*/
+		appearance: auto;
 		display: block;
 		float: left;
 		margin-right: -2rem;
-		opacity: 0;
+		opacity: 1;
 		width: 1rem;
-		z-index: -1;
+		/*z-index: -1;*/
 	}
 
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #F7E8DE;
+			color: #fff;
 			cursor: pointer;
 			display: inline-block;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Poppins", Helvetica, sans-serif;
 			font-size: 1rem;
 			font-weight: 300;
 			letter-spacing: 0.0375em;
@@ -2527,7 +2756,7 @@ sup {
 			}
 
 		.image.fill {
-			height: 100%;
+			height: 75%;
 			left: 0;
 			position: absolute;
 			top: 0;
@@ -2643,6 +2872,9 @@ sup {
 		ul.actions li {
 			padding: 0 0 0 1rem;
 			vertical-align: middle;
+			font-family: "Jokerman";
+			font-size: large;
+			color: #F7E8DE;
 		}
 
 		ul.actions.special {
@@ -3280,7 +3512,7 @@ sup {
 
 				#wrapper section > header h1 + p {
 					font-family: "Jokerman";
-					font-size: 0.8rem;
+					/*font-size: 0.8rem;*/
 					letter-spacing: 0.175em;
 					line-height: 2.5;
 					text-transform: uppercase;
@@ -3379,9 +3611,10 @@ sup {
 						left: auto;
 					}
 
-				#wrapper > section.intro > .content {
-					height: 100vh;
+				#wrapper > section.intro > .content { /* bild fix weiß header*/
+					height: 135vh;
 					max-width: none;
+					background-color: #846564;
 				}
 
 			#wrapper > section:last-of-type > header:before {
@@ -3401,8 +3634,8 @@ sup {
 			}
 
 		#wrapper .copyright {
-			color: rgba(0, 0, 0, 0.25);
-			font-size: 1rem;
+			color: rgba(0, 0, 0, 0.404);
+			font-size: 0.9rem;
 			left: 50vw;
 			position: relative;
 			width: 50vw;
