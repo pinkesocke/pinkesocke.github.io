@@ -250,6 +250,13 @@ sup {
 	top: -0.5rem;
 }
 
+.plan-label {
+	font-weight: bold;
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+	color: #fff;
+}
+
 /* LamplNet Specials */
 mark {
 	background-image: url(../svg/Marker.svg);
